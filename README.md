@@ -1,128 +1,136 @@
-# Employee-Report-PowerBI
+# 📊 Employee Report – Power BI Dashboard
 
-Project Overview
+![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-The Employee Report Dashboard is a Power BI data visualization project designed to analyze employee data across different departments, genders, locations, and years. The main objective of this project is to provide insights into workforce distribution, hiring trends, salary analysis, and organizational structure.
+> An interactive Power BI dashboard that analyzes employee data across departments, genders, locations, and years — helping HR and management teams make data-driven workforce decisions.
 
-This dashboard helps management and HR teams understand employee statistics and make data-driven decisions related to recruitment, salary planning, and workforce management.
+---
 
-Objectives of the Project
+## 🧭 Overview
 
-The main objectives of this project are:
+The **Employee Report Dashboard** is a Power BI data visualization project built to explore an organization's workforce data. It surfaces insights into **employee distribution, hiring trends, salary analysis, and gender diversity**, giving stakeholders a clear, filterable view of the company's HR metrics.
 
-To analyze the total number of employees in the organization.
+This dashboard supports management and HR teams in understanding employee statistics and making informed decisions around **recruitment, salary planning, and workforce management**.
 
-To understand employee distribution by department.
+---
 
-To visualize gender diversity in the company.
+## 🎯 Objectives
 
-To analyze average salary and job rate of employees.
+- 📌 Analyze the total number of employees in the organization
+- 🏢 Understand employee distribution by department
+- ⚖️ Visualize gender diversity across the company
+- 💰 Analyze average salary and job rate of employees
+- 📈 Track new employee hiring trends over the years
+- 🌍 Enable filtering of employee data by country and center
 
-To track new employee hiring trends over the years.
+---
 
-To allow users to filter employee data by country and center.
+## 📌 Key Metrics (KPIs)
 
-Key Metrics (KPIs)
+| KPI | Value | Description |
+|---|---|---|
+| **Average Job Rate** | `3.63` | Average job level / performance rating across the organization |
+| **Average Annual Salary** | `24.66K` | Average compensation across the workforce |
+| **Total Employees** | `251` | Total workforce included in the dataset |
 
-The dashboard highlights three important key performance indicators:
+---
 
-1. Average Job Rate
+## 🏢 Employee Distribution Analysis
 
-The dashboard shows the average job rate of employees as 3.63, which represents the average job level or performance rating across the organization.
+### By Department
+Visualized using a bar chart:
 
-2. Average Annual Salary
+- 🏭 **Manufacturing** has the highest number of employees
+- Other departments include Quality Control, Account Management, Marketing, IT, and Facilities/Engineering
+- Specialized departments such as Research, Creative, and Environmental Health have smaller headcounts
 
-The average annual salary is 24.66K, which represents the average compensation provided to employees in the organization.
+> 💡 **Insight:** Operational departments require a significantly larger workforce compared to specialized roles.
 
-3. Total Number of Employees
+### By Gender
 
-The company currently has 251 employees, which represents the total workforce included in the dataset.
+| Gender | Percentage |
+|---|---|
+| 👨 Male | 67% |
+| 👩 Female | 33% |
 
-Employee Distribution Analysis
-Employees by Department
+> 💡 **Insight:** The workforce is currently male-dominated, highlighting an opportunity to improve gender diversity.
 
-The dashboard visualizes employee distribution across different departments using a bar chart.
+### By Center
 
-From the analysis:
+- The **Main Center** accounts for all 251 employees, indicating the primary operational hub of the organization.
 
-Manufacturing has the highest number of employees.
+---
 
-Other departments include Quality Control, Account Management, Marketing, IT, and Facilities/Engineering.
+## 📈 Hiring Trend Analysis
 
-Some specialized departments such as Research, Creative, and Environmental Health have fewer employees.
+New employees hired per year:
 
-This indicates that operational departments require a larger workforce compared to specialized roles.
+| Year | New Employees |
+|---|---|
+| 2016 | 19 |
+| 2017 | 24 |
+| 2018 | 55 |
+| 2019 | 98 |
+| 2020 | 55 |
 
-Employees by Gender
+**Interpretation:**
+- 📊 Hiring increased steadily from 2016 to 2019
+- 🚀 Peak recruitment occurred in **2019**, likely reflecting company growth or expansion
+- 📉 2020 saw a decline in hiring, possibly due to shifting business strategy or external economic factors
 
-The gender distribution chart shows:
+---
 
-Male Employees: 67%
+## 🎛️ Interactive Filters
 
-Female Employees: 33%
+The dashboard supports dynamic filtering for deeper analysis:
 
-This indicates that the workforce is currently male-dominated, suggesting an opportunity for improving gender diversity within the organization.
+**🌍 Country Filter**
+- Egypt
+- Saudi Arabia
+- United Arab Emirates
+- Lebanon
+- Syria
 
-Employees by Center
+**🏢 Center Filter**
+- Filter data by organizational center for granular insights
 
-The dashboard also shows employee distribution based on company centers.
+---
 
-The Main Center contains 251 employees, indicating that the majority of the workforce is located in the primary operational center of the organization.
+## 🛠️ Tools & Technologies
 
-Hiring Trend Analysis
+- **Power BI Desktop** — dashboard development
+- **Data Visualization** — bar charts, line charts, KPI cards
+- **Interactive Dashboard Design** — slicers and filters
+- **Data Modeling** — KPI calculations and trend analysis
 
-The New Employees by Year line chart shows the hiring trend over time.
+---
 
-Year	Number of New Employees
-2016	19
-2017	24
-2018	55
-2019	98
-2020	55
-Interpretation
+## 🚀 Getting Started
 
-Hiring increased steadily from 2016 to 2019.
+1. Clone or download this repository
+2. Open `Employee report.pbix` in **Power BI Desktop**
+3. Explore the dashboard using the country and center slicers
+4. Interact with the visuals to drill into department, gender, and hiring trend insights
 
-The highest recruitment occurred in 2019, which may indicate company expansion or growth.
+```bash
+git clone https://github.com/nancydheer/Employee-Report-PowerBI.git
+```
 
-In 2020, hiring decreased, which could be due to business strategy changes or external economic factors.
+---
 
-Filters Used in the Dashboard
+## 📝 Conclusion
 
-The dashboard includes interactive filters that allow users to analyze data dynamically.
+This Power BI Employee Report Dashboard provides a comprehensive overview of employee data within the organization. It helps stakeholders analyze workforce distribution, understand hiring trends, evaluate salary structures, and assess gender diversity — enabling smarter, data-driven HR and management decisions.
 
-Country Filter
+---
 
-Users can filter employee data based on different countries such as:
+## 👩‍💻 Author
 
-Egypt
+**Nancy Dheer**
+[GitHub Profile](https://github.com/nancydheer)
 
-Saudi Arabia
+---
 
-United Arab Emirates
-
-Lebanon
-
-Syria
-
-Center Filter
-
-Users can also filter data based on the organizational center, allowing for more detailed analysis.
-
-Tools and Technologies Used
-
-Power BI Desktop
-
-Data Visualization Techniques
-
-Interactive Dashboard Design
-
-Data Filtering and Slicers
-
-KPI Cards and Charts
-
-Conclusion
-
-This Power BI Employee Report Dashboard provides a comprehensive overview of employee data within the organization. It helps stakeholders analyze workforce distribution, understand hiring trends, evaluate salary structures, and assess gender diversity.
-
-The dashboard enables organizations to make data-driven HR and management decisions, improving workforce planning and operational efficiency.
+⭐ If you found this project useful, consider giving it a star!
