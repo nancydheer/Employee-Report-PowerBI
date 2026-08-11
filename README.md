@@ -100,10 +100,17 @@ The dashboard supports dynamic filtering for deeper analysis:
 
 ## 🛠️ Tools & Technologies
 
-- **Power BI Desktop** — dashboard development
-- **Data Visualization** — bar charts, line charts, KPI cards
-- **Interactive Dashboard Design** — slicers and filters
-- **Data Modeling** — KPI calculations and trend analysis
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Data Visualization](https://img.shields.io/badge/Data%20Visualization-4C51BF?style=flat-square)
+![Dashboard Design](https://img.shields.io/badge/Dashboard%20Design-0EA5E9?style=flat-square)
+![Data Modeling](https://img.shields.io/badge/Data%20Modeling-10B981?style=flat-square)
+
+| Tool / Skill | What it was used for |
+|---|---|
+| 📊 **Power BI Desktop** | End-to-end dashboard development |
+| 📈 **Data Visualization** | Bar charts, line charts, KPI cards |
+| 🎛️ **Interactive Dashboard Design** | Slicers and filters for dynamic exploration |
+| 🧮 **Data Modeling** | KPI calculations and trend analysis |
 
 ---
 
